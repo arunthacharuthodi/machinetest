@@ -1,0 +1,53 @@
+name: machinetest
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  cached_network_image: 
+  http: ^0.13.6
+  provider: ^6.0.5
+  bloc: ^8.1.2
+  shimmer: ^3.0.0
+  sqflite: ^2.2.8+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+assets:
+  - assets/
+  - assets/fonts/
+
+
+
+
+
+
+
+
+flutter:
+
+  fonts:
+  - family: Signika
+    fonts:
+      - asset: assets/fonts/Signika-Regular.ttf
+      - asset: assets/fonts/Signika-Medium.ttf
+      - asset: assets/fonts/Signika-SemiBold.ttf
+      - asset: assets/fonts/Signika-Bold.ttf
+      - asset: assets/fonts/Signika-Light.ttf
+
+  uses-material-design: true
+
